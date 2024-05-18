@@ -5,8 +5,8 @@ function UseState() {
   const [name, setName] = useState({firstName: "" , lastName: ""})
   return (
     <div>
-      <p>UseState hooks implementation on object</p>
       <hr />
+      <p>UseState hooks implementation on object</p>
       <p>Enter Your full Name</p>
       <input 
         type="text" 
