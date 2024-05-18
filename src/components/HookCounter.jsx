@@ -11,7 +11,7 @@ function HookCounter() {
   }
   return (
     <div>
-      <h2>Counter program</h2>
+      <h4>Counter program</h4>
       <h3>{count}</h3>
       <button onClick={() => setCount(initialCount)}>Reset</button>
       <button onClick={() => setCount(prevCount => prevCount + 1)}>Increment</button>
