@@ -1,6 +1,8 @@
 import './App.css';
 import ArrayuseState from './components/ArrayuseState';
 import HookCounter from './components/HookCounter';
+import MouseContainer from './components/MouseContainer';
+// import Mouselog from './components/Mouselog';
 import UseState from './components/UseState';
 import CounterUseEffect from './components/counterUseEffect';
 
@@ -14,8 +16,11 @@ function App() {
       <UseState/>
       <ArrayuseState/>
       <hr />
-      <h2>UseRffect Hooks...</h2>
+      <h2>UseEffect Hooks...</h2>
       <CounterUseEffect/>
+      <br />
+      {/* <Mouselog/> */}
+      <MouseContainer/>
 
     </div>
   );
