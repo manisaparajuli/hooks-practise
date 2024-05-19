@@ -1,7 +1,9 @@
 import './App.css';
 import ArrayuseState from './components/ArrayuseState';
+import DataFetch from './components/DataFetch';
 import HookCounter from './components/HookCounter';
 import MouseContainer from './components/MouseContainer';
+import TimerUseEffect from './components/TimerUseEffect';
 // import Mouselog from './components/Mouselog';
 import UseState from './components/UseState';
 import CounterUseEffect from './components/counterUseEffect';
@@ -21,7 +23,8 @@ function App() {
       <br />
       {/* <Mouselog/> */}
       <MouseContainer/>
-
+      <TimerUseEffect/>
+      <DataFetch/>
     </div>
   );
 }
