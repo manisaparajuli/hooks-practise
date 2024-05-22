@@ -1,5 +1,6 @@
 import './App.css';
 import ArrayuseState from './components/ArrayuseState';
+import CounterUseRedicerObject from './components/CounterUseRedicerObject';
 import CounterUseReducer from './components/CounterUseReducer';
 import DataFetch from './components/DataFetch';
 import HookCounter from './components/HookCounter';
@@ -29,6 +30,7 @@ function App() {
       <hr />
       <h2>UseReducer Hook....</h2>
       <CounterUseReducer/>
+      <CounterUseRedicerObject/>
     </div>
   );
 }
