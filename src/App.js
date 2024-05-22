@@ -1,5 +1,6 @@
 import './App.css';
 import ArrayuseState from './components/ArrayuseState';
+import CounterUseReducer from './components/CounterUseReducer';
 import DataFetch from './components/DataFetch';
 import HookCounter from './components/HookCounter';
 import MouseContainer from './components/MouseContainer';
@@ -25,6 +26,9 @@ function App() {
       <MouseContainer/>
       <TimerUseEffect/>
       <DataFetch/>
+      <hr />
+      <h2>UseReducer Hook....</h2>
+      <CounterUseReducer/>
     </div>
   );
 }
