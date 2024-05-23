@@ -1,4 +1,5 @@
 import './App.css';
+import AllStates from './components/AllStates';
 import ArrayuseState from './components/ArrayuseState';
 import CounterUseRedicerObject from './components/CounterUseRedicerObject';
 import CounterUseReducer from './components/CounterUseReducer';
@@ -31,6 +32,7 @@ function App() {
       <h2>UseReducer Hook....</h2>
       <CounterUseReducer/>
       <CounterUseRedicerObject/>
+      <AllStates/>
     </div>
   );
 }
